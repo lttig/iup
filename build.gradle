@@ -12,7 +12,12 @@ repositories {
 
 // tag::jar[]
 jar {
-    archiveBaseName = 'my'
+    archiveBaseName = 'my1'
+    manifest {
+        attributes(
+                'Main-Class': 'hello.HelloWorld'
+        )
+    }
 //    archiveVersion =  '0.1.0'
 }
 // end::jar[]
