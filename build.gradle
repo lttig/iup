@@ -12,8 +12,8 @@ repositories {
 
 // tag::jar[]
 jar {
-    archiveBaseName = 'gs-gradle'
-    archiveVersion =  '0.1.0'
+    archiveBaseName = 'my'
+//    archiveVersion =  '0.1.0'
 }
 // end::jar[]
 
